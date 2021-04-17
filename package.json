@@ -4,7 +4,7 @@
   "description": "testing https://jsonplaceholder.typicode.com/",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha '**/*.spec.js'"
   },
   "repository": {
     "type": "git",
@@ -24,9 +24,14 @@
   "homepage": "https://github.com/ChristinaNT/api-test-project#readme",
   "dependencies": {
     "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "chai-json-schema": "^1.5.1",
     "express": "^4.17.1",
+    "log4js": "^6.3.0",
     "mocha": "^8.3.2",
+    "mochawesome": "^6.2.2",
     "nock": "^13.0.11",
+    "request-promise": "^4.2.6",
     "supertest": "^6.1.3"
   }
 }
