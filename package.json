@@ -1,0 +1,32 @@
+{
+  "name": "api-test-project",
+  "version": "1.0.0",
+  "description": "testing https://jsonplaceholder.typicode.com/",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristinaNT/api-test-project.git"
+  },
+  "keywords": [
+    "api",
+    "supertest",
+    "mocha",
+    "chai"
+  ],
+  "author": "christina thalayasingam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristinaNT/api-test-project/issues"
+  },
+  "homepage": "https://github.com/ChristinaNT/api-test-project#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "mocha": "^8.3.2",
+    "nock": "^13.0.11",
+    "supertest": "^6.1.3"
+  }
+}
