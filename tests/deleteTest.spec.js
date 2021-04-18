@@ -17,13 +17,13 @@ log4js.configure(log.logging());
 var logger = log4js.getLogger();
 
 
-describe('GET Tests for /posts', () => {
+describe('DELETE Tests for /posts', () => {
 
     let route = config.baseUrl;
     let url;
     let headers = header.plainHeader();
 
-  it('GET should return ok response', (done) => {
+  it('DELETE should return ok response', (done) => {
     request(route)
       .delete('/posts/1')
       .expect(200, done);
