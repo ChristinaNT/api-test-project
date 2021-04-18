@@ -2,7 +2,7 @@
 
 Clone the repository
 ```
-git clone https://github.com/ChristinaNT/wdio-c-testing.git
+https://github.com/ChristinaNT/api-test-project.git
 ```
 
 Use the package manager `npm` to install dependencies:
