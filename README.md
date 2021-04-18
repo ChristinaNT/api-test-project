@@ -1,7 +1,21 @@
 ## Run Tests
 
-```npm install```
+Clone the repository
+```
+git clone https://github.com/ChristinaNT/wdio-c-testing.git
+```
 
-```npm audit fix```
+Use the package manager `npm` to install dependencies:
+```
+npm install
+```
 
-```npm test```
+Don't forget to audix fixes if needed:
+```
+npm audit fix
+```
+
+Run the tests
+```
+npm test
+```
